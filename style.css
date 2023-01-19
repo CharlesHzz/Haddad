@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+header{
+    background-color: #fff;
+	display:flex;
+	justify-content:center;
+	height:120px;
+    border-bottom: 1px solid #ff0000;
+}
+.header{
+    align-items: center;
+	display:flex;
+	justify-content:space-between;
+	width:1100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul, 
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#000;
+}
+nav a:hover{
+    color: #fff;
+    background-color: #333333;
+}
+
+#banner{
+	display:flex;
+	justify-content:center;
+	background-image: url(images/banner.jpeg);
+	background-position:center;
+	background-size:cover;
+	height:600px;
+}
+.banner-op{
+    width: 100vw;
+    height: 600px;
+    background-color: #000;
+    opacity: 0.85;
+    border-bottom: 1px solid #ff0000;
+}
+.textos{
+    width: 750px;
+    color: #fff;
+    margin-top: 190px;
+    position: absolute;
+    text-align: center;
+}
+.textos h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.textos h3{
+    font-size: 20px;
+    line-height: 33px;
+}
+.servicos{
+    display: flex;
+    justify-content: center;
+}
+.servicos-op{
+    margin: 75px 0 0 40px;
+    display: flex;
+    width: 350px;
+    height: 290px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #ccc;
+}
+.servicos-op h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.servicos-op p{
+    text-align: justify;
+    line-height: 22px;
+}
+#projetos{
+    margin-top: 150px;
+    background-color: #fff;
+}
+#projetos h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.obras{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #888;
+}
+.obras img{
+    align-items: center;
+    display: flex;
+    width: 265px;
+    margin-right: 30px;
+    border: 1px solid #888;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.obras img:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.obras p{
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 265px;
+}
+.clien{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.clien h1{
+    text-align: center;
+}
+.clientes{
+    max-width: 1024px;
+}
+.clientes img{
+    width: 90px;
+    margin-top: 60px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.clientes img:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+footer{
+    background-color: #ccc;
+    margin-top: 80px;
+    height: 100px;
+    border-top: 1px solid #888;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rodape h1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.rodape span{
+    color: #ff0000;
+}
